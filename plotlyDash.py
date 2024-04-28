@@ -8,10 +8,10 @@ from io import BytesIO
 import plotly.graph_objs as go
 
 
-aws_access_key_id = 'AKIAZQ3DOOYC7J5PI25Z'
-aws_secret_access_key = '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'
+aws_access_key_id = ''
+aws_secret_access_key = ''
 
-bucket_name = 'comp333bucket'
+bucket_name = ''
 
 
 s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
